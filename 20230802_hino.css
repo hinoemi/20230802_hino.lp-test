@@ -1,9 +1,43 @@
-.header-logo{
-  width: 100px;
+.header-nav{
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
 }
 
-@media screen and (min-width: 769px) {
-.header-logo{
-  width: 100px;
-  }
+.box{
+  display: flex;
+  display: inline-block;
+  text-decoration: none;
+  color:gray;
+  margin-left: 20px;
+}
+
+.menu{
+  color:gray;
+  text-decoration: none;
+}
+
+.flower-box{
+  margin-left: auto;
+  position: relative;
+  height: 800px;
+  width: 800px;
+
+}
+
+.h1text{
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  text-align: center;
+  top: 100;
+  font-size: 90px
+
+}
+
+.firstview{
+  position:relative;
+  width: 100%;
 }
