@@ -21,22 +21,65 @@
 }
 
 .flower-box{
+  margin-left: auto;
   position: relative;
-  height: 800px;
-  width: 800px;
-
+  height: 750px;
+  width: 900px;
 }
 
 .h1text{
   font-family: 'Indie Flower', cursive;
+  top: 90px;
+  left: 90px;
+  width: 1000px;
   position: absolute;
-  text-align: center;
-  top: 100;
-  font-size: 90px
+  color: rgb(139, 0, 90);
+  font-size: 100px
 
 }
 
+.p1{
+font-size: 30px;
+color: rgb(139, 0, 90);
+position: absolute;
+top: 450px;
+left: 100px;
+}
+
+.p2{
+  top: 530px;
+  left: 100px;
+  position: absolute;
+  color: gray;
+  font-weight: bold;
+}
+
+.p3{
+  top: 580px;
+  left: 100px;
+  position: absolute;
+  color: gray;
+  font-weight: bold;
+}
+
 .firstview{
-  position:relative;
+  position: relative;
   width: 100%;
+}
+
+span{
+  color: darkgreen;
+}
+
+.p4{
+  font-family: 'Indie Flower', cursive;
+  color: rgb(139, 0, 90);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.shin{
+  color: gray;
+  line-height: 0.5;
+  font-size: 30px;
 }
